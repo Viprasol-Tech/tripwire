@@ -17,6 +17,10 @@
 
 </div>
 
+<p align="center">
+  <img src="docs/assets/demo.svg" width="820" alt="tripwire demo">
+</p>
+
 ---
 
 `tripwire` is a lightweight **runtime guard for Model Context Protocol (MCP) clients**. It
@@ -39,6 +43,9 @@ Run the fully-offline end-to-end demo:
 ```console
 $ python -m tripwire demo
 ```
+
+<details>
+<summary>Plain-text version</summary>
 
 ```text
 +-------------------------------- tripwire ---------------------------------+
@@ -107,6 +114,8 @@ $ python -m tripwire demo
 | One import stands between your agent and a hijacked MCP server.           |
 +---------------------------------------------------------------------------+
 ```
+
+</details>
 
 ## Quickstart
 
